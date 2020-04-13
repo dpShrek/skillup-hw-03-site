@@ -400,4 +400,59 @@ body {
     height: 750px;
     background-size: cover;
     background-image: url(img/banner-2.jpg) ;
+    z-index: -1;
+}
+
+.fon{
+    background-color:gray;
+    opacity: 0.7;
+    height: 100%;
+}
+.footer-input-ferst{
+    text-align: center;
+}
+.footer__title{
+    color: #f0f0f0;
+    font-family: 'Asap', sans-serif;
+    font-weight: 700;
+    font-size:46px;
+    text-transform:uppercase;
+    margin: 0;
+    text-align: center;
+}
+
+.footer__title p{
+    margin: 0;
+}
+.footer-input-last {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.inp-name {
+    width: 370px;
+    height: 55px;
+}
+
+.inp-email{
+    width: 370px;
+    height: 55px;
+}
+
+.btn-send{
+    text-align: center;
+    
+}
+
+.btn-send-klc{
+    height: 50px;
+    width: 160px;
+    background-color: #ffffff;
+    border: solid 0px;
+    font-family: 'Asap', sans-serif;
+    font-weight: 700;
+    font-size:16px;
+    text-transform:uppercase;
+    color: #4d4d4d;
+    
 }
