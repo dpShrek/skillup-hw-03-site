@@ -25,7 +25,7 @@ body {
 .logo__nav_wraper {
     display: flex;
     justify-content: space-between;
-    height: 100px;
+    
 }
 
 .menu {
@@ -229,9 +229,8 @@ body {
     padding: 0px 0 100px 0;
 }
 
-.skil-grap {
+.skil-grap img{
     max-width:100%; 
-    height:auto;
     padding-top: 50px;
 }
 
@@ -312,6 +311,7 @@ body {
 
 .wrap-content {
     display: flex;
+    justify-content: center;
 }
 
 .clietn-photo{
@@ -322,7 +322,16 @@ body {
 .client-raviews{
     padding-left: 20px;
     margin-top: 45px;
+    overflow: hidden;
+    max-height: 300px;
 }
+
+.dsds{
+    max-width: 400px;
+    max-height: 300px;
+    overflow: hidden;
+}
+
 
 .clietn-photo-img {
     width: 155px;
@@ -349,7 +358,7 @@ body {
 }
 
 .comments {
-    width: 600px;
+    
     font-family: 'Asap', sans-serif;
     font-weight: 400;
     font-size:16px;
@@ -360,16 +369,16 @@ body {
 
 .enside {
     background-color: #dedede;
-    height: 300px;
 }
 
 .ens-wrap{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .ens-element{
-    margin-top: 100px;
+    margin: 100px 0 100px 0;
     text-align: center;
 }
 
@@ -456,3 +465,55 @@ body {
     color: #4d4d4d;
     
 }
+
+.comments-hft {
+    width: 750px;
+    height: 200px;
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    .comments-hft {
+        width: 450px;
+        height: 200px;
+    }
+    .ab_photo img {
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 700px){
+    nav {
+        display: none;
+    }
+    .comments-hft {
+        width: 300px;
+        height: 200px;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    .inp-name {
+        width: 250px;
+        height: 55px;
+    }
+    .inp-email{
+        width: 250px;
+        height: 55px;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    .clietn-photo{
+        display: none;
+}
+  }
+
+  @media screen and (max-width: 400px){
+    .slider__left h1{
+        font-size:40px;
+  }
+} 
