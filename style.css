@@ -230,6 +230,8 @@ body {
 }
 
 .skil-grap {
+    max-width:100%; 
+    height:auto;
     padding-top: 50px;
 }
 
@@ -354,4 +356,48 @@ body {
     text-transform:uppercase;
     color: #4d4d4d;
    
+}
+
+.enside {
+    background-color: #dedede;
+    height: 300px;
+}
+
+.ens-wrap{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ens-element{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.ens-element p {
+    font-family: 'Asap', sans-serif;
+    font-weight: 700;
+    font-size:21px;
+    text-transform:uppercase;
+    color: #4d4d4d;
+    margin: 20px 0 5px 0;
+}
+
+.ens-element span {
+    font-family: 'Asap', sans-serif;
+    font-weight: 400;
+    font-size:16px;
+    text-transform:uppercase;
+    color: #4d4d4d;
+    margin: 0;
+}
+
+.nosing{
+    height: 150px;
+    background-color: white;
+}
+
+.footer-wraper {
+    height: 750px;
+    background-size: cover;
+    background-image: url(img/banner-2.jpg) ;
 }
