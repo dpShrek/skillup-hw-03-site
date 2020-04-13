@@ -516,4 +516,8 @@ body {
     .slider__left h1{
         font-size:40px;
   }
+  .comments-hft {
+    width: 200px;
+    height: 200px;
+}
 } 
