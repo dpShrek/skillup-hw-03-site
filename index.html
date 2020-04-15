@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://github.com/dpShrek/skillup-hw-03-site/blob/master/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+
+    
+    
+
 </head>
 <body>
 
@@ -15,7 +19,7 @@
         <header>
             <div class="head__wraper">
                 <div class="container">
-                    <div class="logo__nav_wraper">
+                    <div class="logo__nav_wraper" id="section-1">
                         <div class="logo">
                             <a href="#">
                                 <img id="logo"src="img/logo.png" alt="Luis Oenrique">
@@ -23,19 +27,66 @@
                             <p>OENRIQUE</p>
                             <span>UX/UI EXPERT</span>
                         </div>
-
+                        
                         <nav>
                             <ul class="menu">
-                                <li class="menu__punct inline"><a href="#">Home</a></li>
-                                <li class="menu__punct upper"><a href="#">About</a></li>
-                                <li class="menu__punct upper"><a href="#">Servis</a></li>
-                                <li class="menu__punct upper"><a href="#">Portfolio</a></li>
-                                <li class="menu__punct upper"><a href="#">Contact</a></li>
+                                <li class="menu__punct inline"><a href="#section-1">Home</a></li>
+                                <li class="menu__punct upper"><a href="#section-2">About</a></li>
+                                <li class="menu__punct upper"><a href="#section-3">Servis</a></li>
+                                <li class="menu__punct upper"><a href="#section-4">Portfolio</a></li>
+                                <li class="menu__punct upper"><a href="#section-5">Contact</a></li>
                             </ul>
                         </nav>
+
+
+
+                        <div class="burger-menu">
+
+                            <a href="#" class="burger-menu__button">
+                             <span class="burger-menu__lines"></span>
+                            </a>
+                           
+                            <nav class="burger-menu__nav">
+                             <a href="#section-1" class="burger-menu__link">Home</a>
+                             <a href="#section-2" class="burger-menu__link">About</a>
+                             <a href="#section-3" class="burger-menu__link">Servis</a>
+                             <a href="#section-4" class="burger-menu__link">Portfolio</a>
+                             <a href="#section-5" class="burger-menu__link">Contact</a>
+                            </nav>
+                            <div class="burger-menu__overlay"></div>
+                           </div>
+
+
+
+<!-- 
+                           <div class="burger-menu">
+
+                                <a href="#" class="burger-menu__button">
+                                    <span class="burger-menu__lines"></span>
+                                </a>
+
+                                <nav class="burger-menu__nav">
+
+                                        <a href="#" class="burger-menu__link">Home</a>
+                                        <a href="#" class="burger-menu__link">About</a>
+                                        <a href="#" class="burger-menu__link">Servis</a>
+                                        <a href="#" class="burger-menu__link">Portfolio</a>
+                                        <a href="#" class="burger-menu__link">Contact</a>
+                                    
+
+                                </nav>
+                                <div class="burger-menu__overlay"></div>
+                           </div>                  -->  
+
+
+
+
+               <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+               <script src="script.js"></script>
+
                     </div>
                     
-                        <div class="slider_wrap">
+                        <div  class="slider_wrap">
                             <div class="slider__left">
                                 <h1>Luis Oenrique</h1>
                                 <p>User Experience / User Interface Expert</p>
@@ -51,7 +102,7 @@
             </header>
 
             <content>
-                    <div class="container about_me">
+                    <div class="container about_me" id="section-2">
                         <div class="about__me">
                             <div class="ad_text">
                                 <p>_______</p>
@@ -69,13 +120,13 @@
                 
             
 
-                <div class="services__wraper">
+                <div class="services__wraper" id="section-3">
                     <div class="container">
                         <div class="serv__title">
                             <p>______</p>
                             <h3>services</h3>
                         </div>
-                        <div class="serc__content">
+                        <div class="serc__content" >
 
                             <div class="usr-items">
                                 <img src="img/research.png" alt="usr-items">
@@ -113,7 +164,7 @@
 
                 </div>
 
-                        <div class="my-skil">
+                        <div class="my-skil" >
                             <div class="container">
                                 <div class="skill-wrap">
                                     <div class="serv__title">
@@ -127,7 +178,7 @@
                             </div>
                         </div>
                         
-                        <div class="portfolio__wraper">
+                        <div class="portfolio__wraper" id="section-4">
                             <div class="container">
                                 <div class="serv__title">
                                     <p>______</p>
@@ -235,7 +286,7 @@
 
 
         <footer>
-            <div class="footer-wraper">
+            <div class="footer-wraper" id="section-5">
                 <div class="fon">
                 <div class="container">
                     
